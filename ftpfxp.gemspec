@@ -1,5 +1,5 @@
 require 'rubygems'
-#require 'rubygems/package_task' Is this even needed?
+require 'rake'
 
 PKG_NAME = %q{ftpfxp}
 PKG_VERSION = %q{0.0.5}
