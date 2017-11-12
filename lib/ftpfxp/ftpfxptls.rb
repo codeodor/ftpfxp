@@ -280,7 +280,7 @@ module Net
 					ctx = create_ssl_context()
 
 					# A secure data connection is required.
-					conn = OpenSSL::SSL::SSLSocket.new(open_socket(host, port).io, ctx)
+					conn = OpenSSL::SSL::SSLSocket.new(open_socket(host, port), ctx)
 				else
 					conn = open_socket(host, port)
 				end
