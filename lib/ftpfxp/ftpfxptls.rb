@@ -287,7 +287,7 @@ module Net
 
 				# Sets the point where a file transfer should start.
 				if @resume and rest_offset
-					resp = sendcmd("REST " + rest_offset.to_s) 
+					resp = sendcmd("REST " + rest_offset.to_s)
 					if resp[0] != ?3
 						raise FTPReplyError, resp
 					end
@@ -302,7 +302,7 @@ module Net
 			else
 				sock = makeport
 				if @resume and rest_offset
-					resp = sendcmd("REST " + rest_offset.to_s) 
+					resp = sendcmd("REST " + rest_offset.to_s)
 					if resp[0] != ?3
 						raise FTPReplyError, resp
 					end
