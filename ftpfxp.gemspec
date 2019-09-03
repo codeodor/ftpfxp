@@ -15,6 +15,5 @@ spec = Gem::Specification.new do |s|
 	s.version = PKG_VERSION
 	s.require_path = 'lib'
 	s.files = ["lib/ftpfxp.rb", "lib/ftpfxp/ftpfxp.rb", "lib/ftpfxp/ftpfxptls.rb", "samples/cpsv_sample.rb", "samples/sscn_sample.rb"]
-	s.has_rdoc = true
 	s.extra_rdoc_files = ['README', 'LICENSE.txt', 'COPYING.txt']
 end
