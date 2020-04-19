@@ -11,7 +11,6 @@ spec = Gem::Specification.new do |s|
 	s.authors = %q{Alex Lee}
 	s.email = %q{alexeen@gmail.com}
 	s.homepage = %q{http://github.org/square/ftpfxp}
-	s.rubyforge_project = PKG_NAME
 	s.version = PKG_VERSION
 	s.require_path = 'lib'
 	s.files = ["lib/ftpfxp.rb", "lib/ftpfxp/ftpfxp.rb", "lib/ftpfxp/ftpfxptls.rb", "samples/cpsv_sample.rb", "samples/sscn_sample.rb"]
